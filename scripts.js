@@ -5,5 +5,6 @@ mensagem.addEventListener('click', function() {
 
 let alterarCor = document.querySelector('#cor')
 alterarCor.addEventListener('click', function() {
-    document.body.style.backgroundColor = 'blue';
+    document.body.style.backgroundColor = 'rgb(45, 32, 216)';
 });
+
