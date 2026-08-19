@@ -12,16 +12,36 @@
     <div>
         <h1 id="top">Seja bem vindo ao meu site!</h1>
         <img id="fotoperfil" src="ImageToStl.com_Fotobaja.jpg" alt="Eu dentro do veículo baja">
-        
-        <button id="botao">Clique aqui!</button>
-        <button id="cor">Não gostei da cor!</button>
+        <figcaption class="caption">Dentro do protótipo CB13 da equipe CEFAST BAJA na etapa nacional da competição em março de 2026 </figcaption>
+    </div>
 
+    <div class="container">
+        <button id="botao">Clique aqui!</button>
+        <button id="cor">Não gostei do background!</button>
+    </div>
+
+    <div>
         <h1>Sobre mim:</h1>
         <p>
             Meu nome é David Lanza e sou aluno do 7º período de Engenharia de Computação pelo CEFET-MG. Natural de Sete Lagoas, me mudei para Belo Horizonte para cursar graduação.
         </p>
     </div>
     
+    <div class="carrossel">
+
+        <div class="imagens_carrossel" id="img_car">
+            <img src="IMG_0751.JPG" alt="">
+            <img src="IMG_5290.jpg" alt="">
+            <img src="IMG_7533.jpg" alt="">
+            <img src="IMG_8415.jpg" alt="">
+            <img src="IMG_9122.jpg" alt="">
+        </div>
+
+        <p class="caption">Imagens relacionadas à minha trajetória no CEFET-MG</p>
+
+        <button class="b DIR" onclick="mudarFoto(-1)">&lt;</button>
+        <button class="b ESQ" onclick="mudarFoto(1)">&gt;</button>
+    </div>
     
     <div>
         <h2>Trajetória acadêmica</h2>
@@ -47,6 +67,11 @@
         <p>
         Tenho interesses nas áreas de arquitetura de computadores, microcontroladores, setor automotivo, hardware e eletrônica.
         </p>
+    </div>
+
+    <div>
+        <h2>Links úteis</h2>
+
     </div>
 
     <script src="scripts.js"></script>
